@@ -7,6 +7,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 .grey-bg {
@@ -33,7 +34,6 @@ body {
     width: 1000px;
     height: 100vh;
     max-width: 100%;
-    background-color: black;
 }
 
 .grid-container > button {
@@ -52,6 +52,10 @@ body {
     background-color: black;
     color: white;
     font-style: monospace;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 200px;
 }
 
 .delete {
