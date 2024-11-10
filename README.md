@@ -4,6 +4,8 @@
 
 This webpage is a quick side project to test my HTML, CSS and JavaScript skills. It is a working calculator app which is fully working and can do addition, subtraction, multiplication and division.
 
+![Alt text](calculator-screenshot.png "a title")
+
 ## Features
 
 - **Simplistic Frontend Design**: Easy to use and calculate.
