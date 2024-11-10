@@ -7,6 +7,8 @@ This webpage is a quick side project to test my HTML, CSS and JavaScript skills.
 ## Features
 
 - **Simplistic Frontend Design**: Easy to use and calculate.
+- **Light and Dark Mode**: Easily change the theme by clicking on the left or right of the calculator.
+- **Accessibility**: Usable via the Tab key to ensure accessibility.
 
 ## Tech Stack
 1. HTML
@@ -15,7 +17,7 @@ This webpage is a quick side project to test my HTML, CSS and JavaScript skills.
 
 ## Usage
 
-Install the code and open index.html
+Download the code and open index.html
 
 ## License
 
