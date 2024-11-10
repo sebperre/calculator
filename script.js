@@ -37,8 +37,10 @@ document.body.addEventListener("click", (event) => {
 
 for (const btn of numberBtns) {
     btn.addEventListener("click", () => {
-        number += btn.innerHTML;
-        output.innerHTML = number;
+        if (!(btn.innerHTML === "0") || !(number === "")) {
+            number += btn.innerHTML;
+            output.innerHTML = number;
+        }
     });
 }
 
@@ -83,6 +85,12 @@ for (const btn of opsBtns) {
 
 equal.addEventListener("click", () => {
     if (inOp) {
+        if (save === "") {
+            save = "0"
+        }
+        if (number === "") {
+            number = "0"
+        }
         let result = parseOperation(operation, parseInt(save), parseInt(number));
         number = "";
         output.innerHTML = result;
