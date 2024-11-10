@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.grey-bg {
+    background-color: #D8D9DB;
+}
+
+.orange-bg {
+    background-color: #DF974C;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "output output output output"
+        "delete delete backspace division"
+        "seven eight nine times"
+        "four five six minus"
+        "one two three plus"
+        "zero zero zero equal";
+    gap: 10px;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+    width: 1000px;
+    height: 100vh;
+    max-width: 100%;
+    background-color: black;
+}
+
+.grid-container > button {
+    font-size: 100px;
+}
+
+.grid-container > button:hover, .grid-container > button:focus-visible {
+    filter: brightness(0.8);
+}
+
+.output {
+    grid-area: output;
+    text-align: right;
+    height: 100%;
+    font-size: 200px;
+    background-color: black;
+    color: white;
+    font-style: monospace;
+}
+
+.delete {
+    grid-area: delete;
+}
+
+.backspace {
+    grid-area: backspace;
+}
+
+.division {
+    grid-area: division;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.times {
+    grid-area: times;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.equal {
+    grid-area: equal;
+}
+
